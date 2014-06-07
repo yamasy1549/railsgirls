@@ -16,9 +16,9 @@
         <td><%= idea.name %></td>
         <td><%= idea.description %></td>
         <td><%= idea.picture %></td>
-        <td><%= link_to 'Show', idea %></td>
-        <td><%= link_to 'Edit', edit_idea_path(idea) %></td>
-        <td><%= link_to 'Destroy', idea, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to '見る', idea %></td>
+        <td><%= link_to '編集', edit_idea_path(idea) %></td>
+        <td><%= link_to '削除', idea, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
