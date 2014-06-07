@@ -14,7 +14,7 @@
  *= require_self
  */
 body { padding-top: 100px; 
-background: url(/assets/photo1.jpg);
+background: url(public/assets/haikei.jpg);
 }
 footer { margin-top: 100px; }
 table, td, th { vertical-align: middle; border: none; }
